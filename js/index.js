@@ -1,0 +1,18 @@
+// Вивести в консоль таблицю множення числа 7 за допомогою циклу for.
+const numberOne = 7;
+let table = 1;
+for (table; table <= 10; table++) {
+  console.log(`${numberOne} * ${table} = ${numberOne * table}`);
+}
+
+// Створити скрипт, який виводить в консоль всі числа , які менші за n. Якщо зустрічається число, що більше або дорівнює n, цикл повинен бути закінчений за допомогою break.
+
+const number = Math.round(Math.random() * 100);
+
+let counter = 1;
+for (counter; counter < number; counter++) {
+  console.log(counter);
+  if (counter >= number) {
+    break;
+  }
+}
