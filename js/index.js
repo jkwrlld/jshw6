@@ -28,17 +28,3 @@ for (counter; counter < number; counter++) {
     break;
   }
 }
-
-
-
-// let bum = 1;
-
-// while (bum <= 20) {
-//   if (bum % 3 === 0) {
-//     bum++;
-//     continue;
-//   }
-
-//   console.log(bum);
-//   bum++;
-// }
