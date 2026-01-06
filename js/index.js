@@ -1,3 +1,15 @@
+let i = 1;
+
+while (i <= 10) {
+  console.log(i);
+  i++;
+}
+
+for (let num = 2; num <= 20; num++) {
+  if (num % 2 !== 0) continue;
+  console.log(num);
+}
+
 // Вивести в консоль таблицю множення числа 7 за допомогою циклу for.
 const numberOne = 7;
 let table = 1;
@@ -16,3 +28,17 @@ for (counter; counter < number; counter++) {
     break;
   }
 }
+
+
+
+// let bum = 1;
+
+// while (bum <= 20) {
+//   if (bum % 3 === 0) {
+//     bum++;
+//     continue;
+//   }
+
+//   console.log(bum);
+//   bum++;
+// }
