@@ -41,3 +41,4 @@ while (ind <= 20) {
   console.log(ind);
   ind++;
 }
+
